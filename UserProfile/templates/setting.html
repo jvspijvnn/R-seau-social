@@ -40,8 +40,10 @@
                             {% for message in messages %}
                                 {{message}}
                             {% endfor %}
-                            
-                                                       
+                            <div class="col-span-2">
+                                <label for=""> Location</label>
+                                <input name = 'img' type="file" placeholder="" class="shadow-none bg-gray-100">
+                            </div>            
                             <div class="col-span-2">
                                 <label for="about">bio</label>  
                                 <textarea id="about" name="about" rows="3"  class="shadow-none bg-gray-100"></textarea>
@@ -50,6 +52,7 @@
                                 <label for=""> Location</label>
                                 <input name = 'location' type="text" placeholder="" class="shadow-none bg-gray-100">
                             </div>
+                            
                              
                         
     
@@ -58,7 +61,6 @@
                            <button type="submit" class="button bg-blue-700"> Save </button>
                        </div>
                        
-                    </form>
     
                     </div>
 
